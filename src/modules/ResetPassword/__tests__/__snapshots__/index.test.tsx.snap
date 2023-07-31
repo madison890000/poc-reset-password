@@ -1,43 +1,75 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders ResetPasswordModule initial snapshot for ResetPasswordModule initial 1`] = `
-<div>
-  <div>
-    Reset Password
-  </div>
-  <div>
-    <input
-      data-testid="reset-password"
-      onChange={[Function]}
-    />
+<div
+  className="container"
+>
+  <div
+    className="passwordContainer"
+  >
+    <div
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    >
+      <h3>
+        Reset Password
+      </h3>
+      <div>
+        <input
+          data-testid="reset-password"
+          onChange={[Function]}
+          placeholder="Please input your password"
+          style={
+            Object {
+              "height": 30,
+              "width": 200,
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "color": "red",
+            "maxWidth": 200,
+          }
+        }
+      />
+    </div>
   </div>
   <div
-    style={
-      Object {
-        "color": "red",
-      }
-    }
-  />
-  <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
-    data-testid="reset-btn"
-    disabled={true}
-    onBlur={[Function]}
-    onContextMenu={[Function]}
-    onDragLeave={[Function]}
-    onFocus={[Function]}
-    onKeyDown={[Function]}
-    onKeyUp={[Function]}
-    onMouseDown={[Function]}
-    onMouseLeave={[Function]}
-    onMouseUp={[Function]}
-    onTouchEnd={[Function]}
-    onTouchMove={[Function]}
-    onTouchStart={[Function]}
-    tabIndex={-1}
-    type="button"
+    className="resetButton"
   >
-    Reset Your Password
-  </button>
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+      data-testid="reset-btn"
+      disabled={true}
+      onBlur={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "backgroundColor": "gray",
+          "color": "white",
+        }
+      }
+      tabIndex={-1}
+      type="button"
+    >
+      Reset Your Password
+    </button>
+  </div>
 </div>
 `;

@@ -33,23 +33,34 @@ const Password = ({onValidate}: PasswordProps) => {
     }
     const passTheValidation = validateStatus != ValidateStatus.INIT && success;
     return (
-        <>
-            <div>
+        <div style={{
+            display: 'block'
+        }}>
+            <h3>
                 Reset Password
-            </div>
+            </h3>
             <div>
-                <input onChange={onChange} data-testid="reset-password"/>
+                <input
+                    onChange={onChange}
+                    data-testid="reset-password"
+                    placeholder="Please input your password"
+                    style={{
+                        width: 200,
+                        height: 30,
+                    }}
+                />
             </div>
             {
                 passTheValidation ? <div>password is fit the rules!</div> : (
                     <div style={{
-                        color: 'red'
+                        color: 'red',
+                        maxWidth: 200,
                     }}>
                         {message}
                     </div>
                 )
             }
-        </>
+        </div>
     )
 }
 
