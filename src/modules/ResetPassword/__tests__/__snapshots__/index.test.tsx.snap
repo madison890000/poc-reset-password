@@ -28,6 +28,7 @@ exports[`renders ResetPasswordModule initial snapshot for ResetPasswordModule in
               "width": 200,
             }
           }
+          type="password"
         />
       </div>
       <div
