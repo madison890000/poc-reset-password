@@ -38,7 +38,7 @@ const Password = ({onValidate}: PasswordProps) => {
                 Reset Password
             </div>
             <div>
-                <input onChange={onChange}/>
+                <input onChange={onChange} data-testid="reset-password"/>
             </div>
             {
                 passTheValidation ? <div>password is fit the rules!</div> : (
