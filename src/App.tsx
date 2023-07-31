@@ -1,11 +1,9 @@
 import React from 'react';
-import Password from "./components/Password";
+import ResetPasswordModule from "./modules/ResetPassword";
 
 function App() {
     return (
-        <div>
-            <Password/>
-        </div>
+        <ResetPasswordModule/>
     );
 }
 
