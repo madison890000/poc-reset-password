@@ -1,9 +1,10 @@
 import React from 'react';
-import styles from './App.module.scss';
+import Password from "./components/Password";
 
 function App() {
     return (
-        <div className={styles.main}>
+        <div>
+            <Password/>
         </div>
     );
 }
