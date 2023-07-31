@@ -48,6 +48,7 @@ const Password = ({onValidate}: PasswordProps) => {
                         width: 200,
                         height: 30,
                     }}
+                    type="password"
                 />
             </div>
             {
